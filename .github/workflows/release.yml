@@ -30,7 +30,7 @@ jobs:
       - name: Setup CUDA toolkit
         uses: Jimver/cuda-toolkit@v0.2.35
         with:
-          cuda: '12.6'
+          cuda: '12.6.0'
           method: 'network'
 
       - name: Install CMake 3.31+
