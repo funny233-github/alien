@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends libx11-dev libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev libxext-dev libxfixes-dev libgl1-mesa-dev libglu-dev
 
       - name: Setup CUDA toolkit
-        uses: Jimver/cuda-toolkit@v0.2
+        uses: Jimver/cuda-toolkit@v0.2.35
         with:
           cuda: '12.6'
           method: 'network'
